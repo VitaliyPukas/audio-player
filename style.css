@@ -1,3 +1,48 @@
+
+
+* {
+    box-sizing: border-box;
+}
+
 h1 {
-    color: red;
+    color: rgb(213, 205, 205);
+    font-size: 25px;
+    margin-top: 0;
+}
+
+
+body {
+    background: #f0e7f189;
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    width: 400px;
+    text-align: center;
+    padding: 20px;
+    background: rgb(157, 63, 251);
+    background: linear-gradient(90deg, rgba(157, 63, 251, 1) 0%, rgba(195, 69, 252, 1) 100%, rgba(232, 69, 252, 1) 100%, rgba(124, 47, 119, 1) 100%);
+    box-shadow: 0px 0px 12px 6px rgba(157, 63, 251, 1);
+}
+
+.info {
+    height: 10vh;
+    text-align: center;
+    font-size: 18px;
+    color: black;
+}
+
+i {
+    font-size: 25px;
+}
+
+i.fa-music {
+    font-size: 15px;
+}
+
+button {
+    width: 50px;
+    height: 30px;
+    border-radius: 10px;
 }
