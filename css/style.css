@@ -1,0 +1,104 @@
+body {
+  background: url(/img/bg.png) no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+p {
+  margin: 5px;
+}
+
+.wrapper {
+  width: 500px;
+  margin-top: 50px;
+}
+
+header {
+  background-color: #2f3a3a;
+}
+
+header h1 {
+  color: #d5cdcd;
+  font-size: 25px;
+  margin-top: 0;
+}
+
+main {
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  background: #9d3ffb;
+  background: -webkit-gradient(linear, left top, right top, from(#9d3ffb), color-stop(100%, #c345fc), color-stop(100%, #e845fc), to(#7c2f77));
+  background: linear-gradient(90deg, #9d3ffb 0%, #c345fc 100%, #e845fc 100%, #7c2f77 100%);
+  -webkit-box-shadow: 0px 0px 2px 1px #9d3ffb;
+          box-shadow: 0px 0px 2px 1px #9d3ffb;
+}
+
+main .info {
+  text-align: center;
+  font-size: 18px;
+  color: #32b814;
+  background-color: #252422;
+  margin-bottom: 20px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+main .info .artist {
+  border-bottom: 1px solid #afa8a8;
+  padding-bottom: 10px;
+  min-height: 20px;
+}
+
+main .info .song {
+  min-height: 15px;
+}
+
+main .buttons {
+  background-color: rgba(250, 235, 215, 0.291);
+  padding: 10px 0;
+  border-radius: 10px;
+}
+
+main .buttons button {
+  width: 50px;
+  height: 30px;
+  border-radius: 10px;
+  border: 1px solid #e37d49;
+  -webkit-box-shadow: 0px 0px 2px 1px #9d3ffb;
+          box-shadow: 0px 0px 2px 1px #9d3ffb;
+}
+
+main .buttons button i {
+  font-size: 25px;
+}
+
+main .buttons button :hover {
+  background-color: #edbba2;
+}
+
+main .buttons button :active {
+  background-color: #e37d49;
+  color: white;
+}
+
+.music-list {
+  border: 1px solid silver;
+  background-color: #252422;
+  color: beige;
+  text-align: center;
+}
+
+.list-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}

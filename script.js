@@ -79,7 +79,7 @@ function render() {
         const renderHtml = songs.map(i => {
             return `
             <li class="list-item">
-            <button> <i class="bi bi-play">${aaa}</i></button>
+            <button> <i class="bi bi-play"></i></button>
             <p>${i.artistName}</p>
             <p>${i.songName}</p>
             <p>00:00</p>
