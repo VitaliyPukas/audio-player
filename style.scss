@@ -17,12 +17,12 @@ p {
 }
 
 header {
-    background-color: rgb(47, 58, 58);
 
     h1 {
         color: rgb(213, 205, 205);
         font-size: 25px;
         margin-top: 0;
+        text-align: center;
     }
 }
 
@@ -42,16 +42,32 @@ main {
         margin-bottom: 20px;
         padding: 5px;
         border-radius: 10px;
+        display: flex;
 
-        .artist {
-            border-bottom: 1px solid rgb(175, 168, 168);
-            padding-bottom: 10px;
-            min-height: 20px;
+        .info-text {
+            width: 75%;
+            .artist {
+                border-bottom: 1px solid rgb(175, 168, 168);
+                padding-bottom: 10px;
+                min-height: 20px;
+            }
+    
+            .song {
+                min-height: 15px;
+                color: rgb(227, 125, 73);
+            }
+        }
+        .info-time {
+            color: white;
+            width: 25%;
+            border: 1px solid rgb(175, 168, 168);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
 
-        .song {
-            min-height: 15px;
-        }
+        
 
     }
 
@@ -66,15 +82,15 @@ main {
             border: 1px solid rgb(227, 125, 73);
             box-shadow: 0px 0px 2px 1px rgba(157, 63, 251, 1);
             i {
-                font-size: 25px;
+                font-size: 20px;
             }
-            :hover {
-                background-color: rgb(237, 187, 162);
-            }
-            :active {
-                background-color: rgb(227, 125, 73);
-                color: white;
-            }
+        }
+        :hover {
+            background-color: rgb(237, 187, 162);
+        }
+        :active {
+            background-color: rgb(227, 125, 73);
+            color: white;
         }
     }
 }
