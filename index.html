@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
     <title>iMusic</title>
 </head>
 
@@ -22,21 +23,21 @@
                 </div>
             </div>
             <div class="music-block">
-                <div class="header-music-nav">
-                    <button type="button" onclick="closePlayer()">X</button>
-                </div>
-                <div class="main-music-nav">
-                    <button id="pre-btn" class="pre-btn" onclick="preBtn()">pre</button>
-                    <button id="play-btn" class="play-btn" onclick="playBtn()">play</button>
-                    <button id="pause-btn" class="pause-btn" onclick="stopBtn()">stop</button>
-                    <button id="next-btn" class="next-btn" onclick="nextBtn()">next</button>
-                    <button id="vol-plus" onclick="volPlus()">vol+</button>
-                    <button id="vol-minus"  onclick="volMinus()">vol-</button>
-                </div>
-                <div class="footer-music-nav">
-                    <button>loop</button>
-                    <button>no-name</button>
-                </div>
+              
+                    <button type="button" onclick="closePlayer()"><i class="bi bi-box-arrow-up-right"></i></button>
+              
+               
+                    <button id="previus" class="previus" onclick="preBtn()"><i class="bi bi-skip-backward-fill"></i></button>
+                    <button id="play" class="play" onclick="playBtn()"><i class="bi bi-play-fill"></i></button>
+                    <button id="pause" class="pause" onclick="stopBtn()"><i class="bi bi-pause-fill"></i></i></button>
+                    <button id="next" class="next" onclick="nextBtn()"><i class="bi bi-skip-forward-fill"></i></button>
+                    <button id="volume-up" onclick="volPlus()"><i class="bi bi-volume-up-fill"></i></button>
+                    <button id="volume-down"  onclick="volMinus()"><i class="bi bi-volume-down"></i></button>
+                
+                
+                    <button id="repeat"><i class="bi bi-repeat"></i></button>
+                    <button id="mix"><i class="bi bi-shuffle"></i></button>
+  
             </div>
         </div>
         <button id="open-player" class="open-player" onclick="openPlayer()">Music</button>
